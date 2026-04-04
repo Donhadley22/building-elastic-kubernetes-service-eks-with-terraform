@@ -1,0 +1,133 @@
+# ===============================
+
+# OS / System Files
+
+# ===============================
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ===============================
+
+# Editor / IDE Files
+
+# ===============================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# ===============================
+
+# Logs & Debug Files
+
+# ===============================
+
+*.log
+logs/
+debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+
+# Environment & Secrets
+
+# ===============================
+
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.crt
+*.csr
+*.pfx
+
+# Kubernetes / Kubeconfig (VERY IMPORTANT)
+
+kubeconfig
+*.kubeconfig
+.kube/
+config
+
+# ===============================
+
+# Terraform
+
+# ===============================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# ===============================
+
+# Helm
+
+# ===============================
+
+*.tgz
+charts/*.tgz
+
+# ===============================
+
+# Docker
+
+# ===============================
+
+Dockerfile.local
+.dockerignore
+
+# ===============================
+
+# Node / Frontend (if any)
+
+# ===============================
+
+node_modules/
+dist/
+build/
+
+# ===============================
+
+# Python (if any scripts)
+
+# ===============================
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env/
+
+# ===============================
+
+# CI/CD
+
+# ===============================
+
+*.cache
+coverage/
+
+# ===============================
+
+# Misc
+
+# ===============================
+
+tmp/
+temp/
+*.bak
+*.backup
