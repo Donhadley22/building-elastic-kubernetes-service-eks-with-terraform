@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "steghub-eks-terraform-state"
-    key            = "eks/terraform.tfstate"
-    region         = "eu-west-2"
-    dynamodb_table = "terraform-locks"
-    encrypt        = true
+    bucket       = "steghub-eks-terraform-state-2026"
+    key          = "eks/terraform.tfstate"
+    region       = "us-east-1"
+    use_lockfile = true
+    encrypt      = true
   }
 }
